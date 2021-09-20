@@ -22,7 +22,6 @@ export default {
   name: "computed-properties-exercise",
   setup() {
     const state = reactive({
-      // After getting this to work, challenge yourself to add an input field and bind message to it, so as you type the messag gets reversed!
       message: "Hello World!",
       reversedMessage: computed(() => state.message.split("").reverse().join('')),
     });
