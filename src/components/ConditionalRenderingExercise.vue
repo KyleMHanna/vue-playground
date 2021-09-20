@@ -71,15 +71,15 @@
             <p>The grade is 'A'.</p>
           </div>
           <!-- v-else-if comparing grade and 80 -->
-          <div v-if="state.grade >= 80">
+          <div v-else-if="state.grade >= 80">
             <p>The grade is 'B'.</p>
           </div>
           <!-- v-else-if comparing grade and 70 -->
-          <div v-if="state.grade >= 70">
+          <div v-else-if="state.grade >= 70">
             <p>The grade is 'C'.</p>
           </div>
           <!-- v-else-if comparing grade and 60 -->
-          <div v-if="state.grade >= 60">
+          <div v-else-if="state.grade >= 60">
             <p>The grade is 'D'.</p>
           </div>
           <!-- v-else to display if all the others fail -->
